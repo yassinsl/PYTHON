@@ -1,0 +1,10 @@
+a = input("please enter number 1 :")
+b = input("please enter number 2 :")
+c = int(a) + int(b)
+x = int(a) - int(b)
+d = int(a) * int(b)
+e = int(a) / int(b) # given you a float value
+f = int(a) //int(b)
+g = int(a) % int(b)
+h = int(a) **int(b)
+print(f"add = {c}\nsub = {x}\nmul ={d}\ndev = {e} or {f}\nmod ={g}\npow = {h}")
