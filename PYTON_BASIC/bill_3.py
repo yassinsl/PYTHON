@@ -8,4 +8,4 @@ choose =random.randint(0,index)
 while(i <= index):
     if(i == choose):
         print(f"sorry {list[i]}, this is a game. please Pay.")
-    i +=1
+    i+= 1
