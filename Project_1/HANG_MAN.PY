@@ -3,6 +3,7 @@ Author: YASSINE LAHSSINI
 Date: 16/01/2024
 Time: 11:15
 """
+import random
 Draw_HG = ['''
   +---+
   |   |
@@ -53,8 +54,12 @@ Draw_HG = ['''
  / \  |
       |
 =========''']
+import random
 
-word_guess = ['a', 'p', 'p', 'l', 'e']
+word_pjc = ['banana', 'apple', 'orange']
+gues = random.choice(word_pjc)
+word_guess = list(set(gues.replace(',', '')))
+
 word = ['_'] * len(word_guess)
 attempts = 0
 
