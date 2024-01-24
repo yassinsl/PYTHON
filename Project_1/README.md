@@ -291,3 +291,35 @@ Rock, Paper, Scissors is a classic hand game often used as a decision-making too
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+# Number Guessing Game
+
+A simple console-based number guessing game in Python.
+
+## Overview
+
+This game challenges the player to guess a randomly generated number within a specified range. The player can choose the difficulty level, adjusting the number of attempts allowed.
+
+## Instructions
+
+1. Run the `number_guessing_game.py` script.
+2. Observe a visual representation of the game at the beginning.
+3. The computer randomly selects a number between 1 and 100.
+4. Choose the difficulty level:
+    - Type 'easy' for 10 attempts.
+    - Type 'hard' for 5 attempts.
+5. Enter your guess within the specified range.
+6. Receive feedback on whether your guess is too high, too low, or correct.
+7. Continue guessing until you run out of attempts or correctly guess the number.
+
+## Features
+
+- Visual representation at the start.
+- Adjustable difficulty level.
+- Clear feedback on each guess.
+
+## Usage
+
+```bash
+python number_guessing_game.py
+

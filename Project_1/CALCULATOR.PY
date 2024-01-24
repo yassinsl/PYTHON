@@ -41,11 +41,12 @@ print("{} {} {} = {}".format(num_1,operator,num_2,num_3))
 while True :
     num_5 = 0
     user_input = input("Do you want to continue? (yes/no): ")
-    if(user_input == "yes"):
+    if(user_input == "yes" or user_input == "YES"):
          num_4 = int(input("please enter a number if you want :"))
          operator = input("please enter operator if you want :")
          num_5 = calculator(num_3,num_4,operator)
          clear_screen()
          print("{} {} {} = {}".format(num_3,operator,num_4,num_5))
+         num_3 = num_5
     else :
         break
