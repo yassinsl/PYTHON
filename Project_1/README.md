@@ -323,3 +323,44 @@ This game challenges the player to guess a randomly generated number within a sp
 ```bash
 python number_guessing_game.py
 
+# Social Media Follower Count Game
+
+A Python script for a console-based game that challenges players to guess which social media entity has more followers.
+
+## Overview
+
+This simple Python script creates an interactive game where players compare the follower counts of various social media entities. The game randomly presents two entities, and the player needs to guess which one has a higher follower count. The game continues until the player makes an incorrect guess.
+
+## Instructions
+
+1. **Run the Game Script:**
+    - Execute the `social_media_game.py` script in your terminal or command prompt.
+
+2. **Guess Follower Counts:**
+    - The game will display two entities at a time, each with their name, description, and country.
+    - Enter '1' if you believe the first entity has more followers or '2' if you think the second entity has more followers.
+
+3. **Feedback and Scoring:**
+    - Receive immediate feedback on the correctness of your guess.
+    - The game keeps track of your score as you make correct guesses.
+
+4. **Continue Playing:**
+    - Keep making guesses until you choose incorrectly.
+
+## Features
+
+- **Random Entity Selection:**
+    - Entities are randomly selected from a predefined dataset.
+
+- **Clear Feedback:**
+    - Receive clear feedback on each guess, indicating whether your guess was correct or incorrect.
+
+- **Score Tracking:**
+    - Your score is displayed after each correct guess.
+
+## Usage
+
+```bash
+python social_media_game.py
+
+
