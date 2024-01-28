@@ -1,5 +1,5 @@
 
-## Rock
+# Rock, Paper, Scissors
 
 ## Description
 

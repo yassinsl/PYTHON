@@ -4,7 +4,7 @@ Date: 25/01/2024
 Time: 12 : 20
 """
 
-from Project_1.MACHINE_COFFE.welcome import *
+from welcome import *
 
 def coffe_puy(choose_user):
     total_coins = 0
